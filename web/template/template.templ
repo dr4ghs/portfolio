@@ -1,0 +1,18 @@
+package template
+
+templ Base() {
+  <html>
+    <head>
+      <meta charset="UTF-8f"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <meta name="htmx-config" content='{"historyCacheSize": 0, "refreshOnHistoryMiss": false}'></meta>
+      <title>Ahgs' Adventure</title>
+      <link rel="stylesheet" href="static/css/style.css"></link>
+      <script src="https://unpkg.com/htmx.org@1.9.11"></script>
+    </head>
+    <body>
+      <main hx-history-elt>
+      </main>
+    </body>
+  </html>
+}

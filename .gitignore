@@ -1,0 +1,13 @@
+# Project
+**/*.env
+**/style.css
+static
+
+# Go
+bin/
+go.sum
+**/*_templ.go
+
+# Node.js
+node_modules/
+package-lock.json

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-bar-item {
+  @apply transition ease-in-out duration-300 me-4 hover:cursor-pointer text-gray-400 hover:font-bold hover:text-black
+}
+
+.nav-bar-item-selected {
+  @apply me-4 hover:cursor-pointer font-bold text-black
+}
+
